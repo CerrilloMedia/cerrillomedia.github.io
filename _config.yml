@@ -5,15 +5,15 @@ url: "0.0.0.0" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Joey Kirk
+  title: Armando Cerrillo
   avatar: avatar.png
-  gravatar: # Email MD5 hash
+  gravatar: armando@cerrillomedia.org
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Designer, Developer, Writer, and Dad.</h1>
-  header_text_feature_image:
+     <h1>Homebrewing code, design... and beer.</h1>
+  header_text_feature_image: "img/brews_bg_16x12.png"
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
@@ -22,20 +22,20 @@ theme_settings:
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
-  dribbble: "joeykirk"
-  facebook: "joeykirk"
+  dribbble:
+  facebook:
   flickr:
-  github: "madebymunsters/type-theme"
+  github: "cerrillomedia"
   google_plus:
-  instagram: "joeykirk"
-  linkedin:  # Full URL
+  instagram: "mastersoftheuniverse"
+  linkedin:  "https://www.linkedin.com/in/armando-cerrillo"
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "joeykirk"
+  twitter: 
   wordpress:
   youtube:
 
