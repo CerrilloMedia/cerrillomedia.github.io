@@ -1,25 +1,25 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "0.0.0.0" # the base hostname & protocol for your site
+url: "http://cerrillomedia.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
   title: Armando Cerrillo
-  avatar: avatar.png
+  avatar:
   gravatar: armando@cerrillomedia.org
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Projects, contributions and support to the coding community - as well as little bits of homebrewing in between" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Homebrewing code, design... and beer.</h1>
+     <h1>Homebrewing delicious code, design... and beer</h1>
   header_text_feature_image: "img/brews_bg_16x12.png"
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "armando@cerrillomedia.org"
   behance:
   bitbucket:
   dribbble:
@@ -35,7 +35,8 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: 
+  twitter:
+  untappd: "rebeljedi"
   wordpress:
   youtube:
 
@@ -45,7 +46,7 @@ theme_settings:
   katex: true # Enable if using math markup
 
   # Localization strings
-  str_follow_on: "Follow on"
+  str_follow_on: "Follow @"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
   str_next: "Next"
@@ -72,3 +73,5 @@ sass:
   style: :compressed
 
 gems: [jekyll-paginate]
+
+exclude: [images/, _favicon.png, favicon_old.ico ]

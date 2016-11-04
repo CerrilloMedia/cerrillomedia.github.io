@@ -1,7 +1,7 @@
 // Typography
-$font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-size: 1.25em;
+$font-family-main: 'Raleway','Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-family-headings: 'Raleway', 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-size: 1.1em;
 
 // Padding
 $padding-large: 20%;
@@ -15,16 +15,16 @@ $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
 $text-color: #383838;
-$link-color: #1ABC9C;
+$link-color: #82BE94;
 $selection-color: #D4D4D4; // visible when highlighting text
 
 // Header colours
-$header-link-color: #383838;
+$header-link-color: #000000;
 
 // Feature image for articles
 $feature-image-text-color: #fff;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #F98752;
+$header-desc-background-color: #82BE94;
 $header-desc-text-color: #FFF;

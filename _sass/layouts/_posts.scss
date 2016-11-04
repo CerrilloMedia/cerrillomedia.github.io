@@ -35,15 +35,43 @@ header {
     color: $feature-image-text-color;
   }
   header {
+    h1 {
+      text-align:left;
+      display:block;
+    }
     color: $feature-image-text-color;
     background-size: $feature-image-size;
     margin-bottom: 0;
     padding: $padding-large/2.5 $padding-large;
+    background-position: center;
     .meta {
       color: rgba($feature-image-text-color, .7);
+      display: block;
+      text-align: left;
+      margin-left: .2em;
     }
+    text-shadow:0 0 0.8rem #000;
   }
   .post-content {
     @extend %padding-regular;
   }
+}
+.PageNavigation {
+    text-align: center;
+    .prev,
+    .next {
+        background-color:#82BE94;
+        border:.1em solid #82BE94;
+        color:rgb(255,255,255);
+        border-radius: 0 0 .4em .4em;
+        padding: .3rem .3em .4em;
+        display: inline-block;
+        line-height: 1em;    
+    }
+    .prev:hover,
+    .next:hover {
+        background-color:rgb(255,255,255);
+        border:.1rem solid #82BE94;
+        color:#82BE94;
+    }
 }

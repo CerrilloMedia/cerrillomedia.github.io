@@ -4,10 +4,12 @@
   display: inline-block;
   width: 100%;
   background-color:$header-desc-background-color;
+  background-position: center;
   background-size: cover;
   font-size: 1.2em;
   text-align: center;
   color: $header-desc-text-color;
+  text-shadow: .1rem .1rem .6rem #000;
 }
 .call-out p:last-child {
   margin-bottom: 0;
@@ -25,8 +27,14 @@
     display: inline-block;
     background-size: $feature-image-size;
     border-bottom: 1px solid $border-color;
+    h1 {
+      font-size: 2rem;
+    }
     p a:hover {
       @extend %link-hover;
+    }
+    @media (max-width: 529px) {
+      padding: 7.5% 6%;
     }
   }
   .excerpt {
@@ -36,21 +44,33 @@
 
 // Work listing
 .work {
+  text-align: center;
   h2 {
     text-align: center;
   }
-  @extend %padding-regular;
+  // @extend %padding-regular;
+  @extend %padding-small;
   background-size: $feature-image-size;
-  border-bottom: 1px solid $border-color;
   li {
-    width: 32%;
+    width: 31%;
     margin-right:0.5%;
     margin-left:0.5%;
     margin-bottom: 0;
     display: inline-block;
+    text-align: left;
     p a:hover {
       @extend %link-hover;
     }
+      
+    @media (max-width: 529px) {
+      width: 47.9%;
+      margin-right:0.5%;
+      margin-left:0.5%;  
+    }
+  }
+  li:hover img {
+    box-sizing: border-box;
+    // border: 1px solid #000;
   }
   .excerpt {
     margin-top: 1em;
