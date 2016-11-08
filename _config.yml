@@ -63,8 +63,12 @@ paginate_path: "blog/page:num"
 
 # COLLECTIONS
 collections:
+  brews:
+    output: true
+    permalink: /brews/:path/
   portfolio:
     output: true
+    permalink: /portfolio/:path/
 
 # BUILD SETTINGS
 markdown: kramdown

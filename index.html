@@ -27,7 +27,7 @@ layout: default
     <div class="post-teaser">
       <header>
         <h1>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" {% if post.hover-title %} title="{{ post.hover-title}}"{% endif %}>
             {{ post.title }}
           </a>
         </h1>
@@ -36,10 +36,37 @@ layout: default
         </p>
       </header>
       <div class="excerpt">
-        {{ post.excerpt }}
+          <p>{{ post.excerpt }}</p>
         <a class="button" href="{{ post.url | prepend: site.baseurl }}">
           {{ site.theme_settings.str_continue_reading }}
         </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+    
+  <div class="brews">
+    <h2>Adventures in brewing</h2>
+      <p class="subtext">
+        my trials and likely tribulations in homebrewing
+      </p>
+    {% for beer in site.brews %}
+    <div class="post-teaser">
+      <header>
+          <h1>
+          <a class="post-link" href="{{ beer.url | prepend: site.baseurl }}" {% if post.hover-title %} title="{{ post.hover-title}}"{% endif %}>
+            {{ beer.title }}
+          </a>
+          </h1>
+        <p class="meta">
+          {{ beer.date | date: "%B %-d, %Y" }}
+        </p>
+      </header>
+      <div class="excerpt">
+          <p>{{ beer.excerpt }}</p>
+          <a class="button" href="{{ beer.url | prepend: site.baseurl }}">
+          {{ site.theme_settings.str_continue_reading }}
+          </a>
       </div>
     </div>
     {% endfor %}

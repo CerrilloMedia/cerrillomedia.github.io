@@ -76,6 +76,38 @@
     margin-top: 1em;
   }
 }
+
+// Brew listing
+.brews {
+    h2 {
+    padding:5% 20% 0%;
+    text-align: center;
+  }
+    .subtext {
+        text-align: center;
+    }
+  .post-teaser {
+    @extend %padding-regular;
+    width: 100%;
+    margin-bottom: 0;
+    display: inline-block;
+    background-size: $feature-image-size;
+    border-bottom: 1px solid $border-color;
+    h1 {
+      font-size: 2rem;
+    }
+    p a:hover {
+      @extend %link-hover;
+    }
+    @media (max-width: 529px) {
+      padding: 7.5% 6%;
+    }
+  }
+  .excerpt {
+    margin-top: 1em;
+  }
+}
+
 // Pagination
 .pagination .button {
   margin: 0 1.5em;
