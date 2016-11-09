@@ -19,8 +19,10 @@ Prost!
       <input type='hidden' name='redirect_to' value='http:cerrillomedia.github.io/thank-you' />
       <input type='text' name='name' placeholder='Your Full Name' />
       <input type='email' name='email' placeholder='Your E-mail Address' />
+      <section class="topic-header">Topic:</section>
       <section class="radio-buttons" ><input type="radio" name="response type" value="coding" checked/> Coding</section>
       <section class="radio-buttons"><input type="radio" name="response type" value="brewing"> Homebrewing</section>
+      <section class="radio-buttons" ><input type="radio" name="response type" value="other" /> Other</section>
       <textarea rows="4" name='message' placeholder='Write your message ...'></textarea>
       <input type='submit' value='Send Message' />
     </form>

@@ -27,7 +27,8 @@
     input[name="email"]:focus,
     textarea[name="message"]:active,
     textarea[name="message"]:hover,
-    textarea[name="message"]:focus {
+    textarea[name="message"]:focus,
+    {
         box-shadow: 0 0 .3em rgb(218, 165, 32);
         outline: rgb(218,165,32);
     }
@@ -35,19 +36,40 @@
         resize:vertical;
     }
     input[type="submit"] {
-        display:block;
+        width: 100%;
+        background: goldenrod;
+        border: none;
+        padding: 0.4em;
+        color: white;
+    }
+    input[type="submit"]:active,
+    input[type="submit"]:focus,
+    input[type="submit"]:hover,
+    {
+        color: black;
+        font-weight: 800;
     }
     p {
         margin: .5em auto;
     }
+    .topic-header {
+        width: 100%;
+        display: inline-block;
+        background: goldenrod;
+        color: white;
+        padding: .1em;
+    }
     .radio-buttons {
-        width: 50%;
+        width: 32%;
         display: inline-block;
         float: left;
         text-align: center;
-        margin:0 auto .5em;
+        margin:.5em auto;
     }
-    @media (min-width: 1000px) {
+    .radio-buttons:hover {
+        font-weight:800;
+    }
+    @media (min-width: 850px) {
         input[name="name"]
         {
             width: 49%;
@@ -58,8 +80,19 @@
             width: 49%;
             float: right;
         }
+        input[type="submit"] {
+            max-width: 40%;
+        }
         .radio-buttons {
             
+        }
+    }
+    @media (max-width: 550px) {
+        .radio-buttons {
+            width: 60%;
+            display: block;
+            float: none;
+            text-align: left;
         }
     }
 }
