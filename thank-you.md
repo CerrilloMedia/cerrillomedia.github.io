@@ -2,7 +2,7 @@
 layout: page
 title: Thank You
 permalink: /thank-you/
-feature-img: "img/color.png"
+feature-img: "img/thank-you/ty-bg_goldenrod.jpg"
 hide: true
 ---
 
