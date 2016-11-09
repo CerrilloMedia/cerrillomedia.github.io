@@ -16,7 +16,7 @@ Prost!
 <section class="contact-form">
     <form action="https://getsimpleform.com/messages?form_api_token=44e5582f0d72051546cd4467b7cb739b" method="post">
       <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-      <input type='hidden' name='redirect_to' value='http:cerrillomedia.github.io/thank-you' />
+      <input type='hidden' name='redirect_to' value='http:armandocerrillo.com/thank-you' />
       <input type='text' name='name' placeholder='Your Full Name' />
       <input type='email' name='email' placeholder='Your E-mail Address' />
       <section class="topic-header">Topic:</section>
