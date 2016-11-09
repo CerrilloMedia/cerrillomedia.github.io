@@ -1,0 +1,65 @@
+:active,
+:hover,
+:focus {
+    outline:none;
+}
+
+.contact-form {
+    font-size: .9em;
+    // background: goldenrod;
+    text-align: center;
+    
+    input[name="name"],
+    input[name="email"],
+    textarea[name="message"]
+    {
+        width: 100%;
+        display:block;
+        margin: .5em auto;
+        border: 1px solid goldenrod;
+        padding: .4em;
+    }
+    input[name="name"]:active,
+    input[name="name"]:hover,
+    input[name="name"]:focus,
+    input[name="email"]:active,
+    input[name="email"]:hover,
+    input[name="email"]:focus,
+    textarea[name="message"]:active,
+    textarea[name="message"]:hover,
+    textarea[name="message"]:focus {
+        box-shadow: 0 0 .3em rgb(218, 165, 32);
+        outline: rgb(218,165,32);
+    }
+    textarea[name="message"] {
+        resize:vertical;
+    }
+    input[type="submit"] {
+        display:block;
+    }
+    p {
+        margin: .5em auto;
+    }
+    .radio-buttons {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        text-align: center;
+        margin:0 auto .5em;
+    }
+    @media (min-width: 1000px) {
+        input[name="name"]
+        {
+            width: 49%;
+            float: left;
+        }        
+        input[name="email"]
+        {
+            width: 49%;
+            float: right;
+        }
+        .radio-buttons {
+            
+        }
+    }
+}
