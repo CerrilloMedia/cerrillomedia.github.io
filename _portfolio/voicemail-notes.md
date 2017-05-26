@@ -7,7 +7,6 @@ short-description: Jot voicemail notes quickly.
 date: "October 29th, 2016"
 author: "Armando Cerrillo"
 ---
-Here is where one would go to specify the assignment
 
 #### Bed, Bath & Beyond, anyone?
 **explanation:**<br>
@@ -42,3 +41,6 @@ $(event.target).parents('.message-body').remove();
 **conclusion:**<br>
 It has worked quite well for me the first few times and I have already imagined a few extra capabilities one could add such as user verification or the ability to include an 'undo-delete' method utilizing window.localStorage for the current session. I do plan on adding a search filter to the message which locates any phone numbers present in the message box and hoping to add e-mail buttons which would allow for message forwarding.
 
+check-out the [full app here]
+
+[full app here]: https://cerrillomedia.github.io/voicemail-notes-v1/
