@@ -14,11 +14,11 @@
   font-size: 1.2em;
   text-align: center;
   color: $header-desc-text-color;
-  text-shadow: .1rem .1rem .6rem #000;
+  text-shadow: 0.1rem 0.4rem .4rem #000;
   box-shadow: inset 0px 6px 5px -3px rgba(0,0,0,.4);
   @media (max-width: 550px) {
    h1 {
-      font-size: 1.5em;
+      font-size: 1.5em; 
     }
   }
 }

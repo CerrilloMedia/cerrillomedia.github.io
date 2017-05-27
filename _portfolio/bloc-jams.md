@@ -7,3 +7,11 @@ short-description: Bloc.io project - music player.
 date: "December 11th, 2016"
 author: "Armando Cerrillo"
 ---
+
+
+- Summary
+- Explanation
+- Problem
+- Solution
+- Results
+- Conclusion

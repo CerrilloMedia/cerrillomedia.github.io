@@ -8,6 +8,7 @@ date: "October 29th, 2016"
 author: "Armando Cerrillo"
 ---
 
+
 #### Bed, Bath & Beyond, anyone?
 **explanation:**<br>
 In a world slowly shying away from software bloat and increasingly favoring single serving apps I set out to create a lightweight & versatile note taking tool for jotting down, organizing and distributing guest messages throughout the company.
