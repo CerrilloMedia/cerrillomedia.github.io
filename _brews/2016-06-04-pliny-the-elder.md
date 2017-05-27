@@ -3,12 +3,12 @@ layout: brews
 title: Pliny the Elder clone
 brewery: Russian River Brewing Company
 excerpt: "Trying my hand at a Pliny the Elder clone."
-brewers-friend: "http://www.brewersfriend.com/homebrew/brewer/56661/r-dub-c"
+recipe-link: "http://www.brewersfriend.com/homebrew/brewer/56661/r-dub-c"
 ---
 
 #### ingredients for 5 gallon batch:
 
-You can find all of my recipes at [Brewer's Friend]({{ page.brewers-friend }}).
+You can find all of my recipes at [Brewer's Friend]({{ page.recipe-link }}).
 
 | Item | size |
 | --- | --- |

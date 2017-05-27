@@ -1,4 +1,9 @@
 // Header text feature
+.site-title {
+  float: left;
+  font-size: 1.5em;
+  line-height: 1.1em;
+}
 .call-out {
   @extend %padding-regular;
   display: inline-block;
@@ -10,6 +15,7 @@
   text-align: center;
   color: $header-desc-text-color;
   text-shadow: .1rem .1rem .6rem #000;
+  box-shadow: inset 0px 6px 5px -3px rgba(0,0,0,.4);
   @media (max-width: 550px) {
    h1 {
       font-size: 1.5em;

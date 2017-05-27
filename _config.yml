@@ -5,14 +5,14 @@ url: "http://cerrillomedia.github.io" # the base hostname & protocol for your si
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Armando Cerrillo
+  title: "J.A.C."
   avatar:
   gravatar: armando@cerrillomedia.org
   description: "Projects, contributions and support to the coding community - as well as little bits of homebrewing in between" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Homebrewing delicious code, design... and beer</h1>
+    <h1>Homebrewing delicious code, design... and beer</h1>
   header_text_feature_image: "img/brews_bg_16x12.png"
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
@@ -25,7 +25,7 @@ theme_settings:
   dribbble:
   facebook:
   flickr:
-  github: "cerrillomedia"
+  github: "CerrilloMedia"
   google_plus:
   instagram: "mastersoftheuniverse"
   linkedin:  "https://www.linkedin.com/in/armando-cerrillo"
@@ -35,7 +35,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter:
+  twitter: "brewncode"
   untappd: "rebeljedi"
   wordpress:
   youtube:
@@ -46,7 +46,8 @@ theme_settings:
   katex: true # Enable if using math markup
 
   # Localization strings
-  str_follow_on: "Follow @"
+  str_follow_at: "Follow @"
+  str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
   str_next: "Next"

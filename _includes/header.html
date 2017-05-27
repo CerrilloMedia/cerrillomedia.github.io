@@ -19,17 +19,17 @@
 			{% include icons.html %}
             <!-- site pages, if enabled -->
 			{% for page in site.pages %}
-			{% if page.title and page.hide != true %}
-			<li>
-				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">
-                    <i>{{ page.title }}</i>
-                </a>
-			</li>
-			{% endif %}
+				{% if page.title and page.hide != true %}
+				<li>
+					<a class="page-link" href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">
+	                    <i>{{ page.title }}</i>
+	                </a>
+				</li>
+				{% endif %}
 			{% endfor %}
             {% if site.theme_settings.untappd %}
             <li>
-	           <a href="https://untappd.com/user/{{ site.theme_settings.untappd }}" title="{{ site.theme_settings.str_follow_on }} Untappd" target="_blank">
+	           <a href="https://untappd.com/user/{{ site.theme_settings.untappd }}" title="{{ site.theme_settings.str_follow_at }} Untappd" target="_blank">
 		       <i class="fa fa-fw fa-beer"></i>
 	           </a>
             </li>
