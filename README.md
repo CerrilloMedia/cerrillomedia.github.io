@@ -1,7 +1,10 @@
+### Update
+This used to be my portfolio prior to building out my own CMS now utilized at [CMDS](http://www.cerrillomedia.org). It was a nice introduction while learning the ins/outs of design and is no longer being supported & updated in any way.
+
+<hr>
+
 # Portfolio Iro Theme
 ## Based on Type Theme
-
-![Default Type Theme blog](https://bloc-global-assets.s3.amazonaws.com/portfolio/portfolio-iro.png)
 
 A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and easy to customize.
 
